@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Buffer } from "buffer";
+import "./App.css"; // Import the CSS file
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <p className="App-intro">
-          Coming Soon
-        </p>
-      </div>
-    );
-  }
+window.Buffer = buffer.Buffer;
+
+function App() {
+  return (
+    <div className="App">
+      <img
+        className="centeredImage"
+        src="https://img.squadhelp.com/story_images/visual_images/1651096986-DriverPass.png?class=show"
+        alt="Your Image Description"
+      />
+    </div>
+  );
 }
 
 export default App;
