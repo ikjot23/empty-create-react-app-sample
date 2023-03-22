@@ -1,8 +1,7 @@
 import React from "react";
-import { Buffer } from "buffer";
+
 import "./App.css"; // Import the CSS file
 
-window.Buffer = buffer.Buffer;
 
 function App() {
   return (
