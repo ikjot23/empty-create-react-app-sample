@@ -6,7 +6,7 @@ import "./App.css"; // Import the CSS file
 function App() {
   return (
     <div className="App">
-      <img
+      <img width="100%"
         className="centeredImage"
         src="https://img.squadhelp.com/story_images/visual_images/1651096986-DriverPass.png?class=show"
         alt="Your Image Description"
